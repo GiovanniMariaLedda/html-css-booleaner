@@ -1,9 +1,110 @@
-#head-img{
-    background-image: url('../img/pattern.png') ;
-    background-color:blueviolet ;
-    background-size: 100px 350px;
-    
+/* # RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* #header */
+
+.header-title{
+    background-image: url(../img/pattern.png);
+    background-size:330px;
+    background-color:#4f9efc ;
 }
 
+.logo{
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
 
+.Booleaner{
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 10px;
+    color: #4f9efc;
+}
 
+/* MAINE */
+
+.h1-title{
+    margin-top:20px;
+}
+
+.body-maine{
+    padding:10px;
+}
+
+.figcaption{
+    font-family:"Gowun Batang", serif;
+    font-size: 13px;
+}
+.lorem{
+    padding: 30px 0px;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.unordered-list{
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+/* TABLE SECTION */
+
+.table{
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.thead{ 
+    background-color:#24abe5;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: left;
+
+}
+
+.fifty{
+    width:50%;
+
+}
+
+.color{
+    background-color: #b1e5f1;
+}
+
+/* aside */
+.aside-pharagraph{
+    margin-top:30px;
+    font-size: 30px;
+    color:#7a7a7a;
+}
+
+.first-div{
+    margin-top:30px ;
+    background-image: url(../img/monitor.jpg);
+    width: 300px;
+    height: 210px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.second-div{
+    background-image: url(../img/graph.jpg);
+    width: 300px;
+    height: 210px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
